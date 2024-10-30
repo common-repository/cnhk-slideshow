@@ -1,0 +1,336 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+#scroll-wrap {
+    position: absolute;
+    overflow: hidden;
+}
+
+#apply-timing-wrap {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid #d6d6d6;
+    background-color: #f0f0f0;
+}
+
+#apply-timing-wrap > * {
+    margin-top: 10px;
+}
+
+#apply-timing-wrap button {
+    margin-right: 20px;
+    float: right;
+}
+
+#apply-timing-wrap p label {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#caption-timing-wrap,
+#preview-wrap {
+    position: relative;
+}
+
+#timing-du-wrap,
+#timing-du2-wrap {
+    position: absolute;
+    overflow-y: scroll;
+}
+
+#du-com {
+    position: absolute;
+    right: 120px;
+    top: 35px;
+}
+
+#duration ,
+#duration2 {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    padding: 5px;
+    position: absolute;
+}
+
+#duration {
+    top: 5px;
+    left: 50px;
+    font-weight: bold;
+}
+
+#duration2 {
+    top: 5px;
+    right: 50px;
+    font-weight: bold;
+}
+
+#du2-com {
+    position: absolute;
+    left: 120px;
+    top: 35px;
+}
+
+#duration input[type="number"],
+#duration2 input[type="number"] {
+    width: 7em;
+}
+
+.com {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.com .com-tip {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    color: #d0d0d0;
+    padding: 5px;
+    margin-top: -50px;
+    border-radius: 4px;
+    margin-left: -25px;
+    width: 120px;
+    text-align: center;
+    z-index: 10;
+}
+
+.com:hover .com-tip {
+    display: block;
+}
+
+.com:hover .com-tip:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #222;
+    border-bottom: 0;
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 28px;
+}
+
+.com:hover .com-tip:hover {
+    display: none;
+}
+
+#scroll-wrap .caption-name-head {
+    float: right;
+    margin: 0.5em;
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#du-com .dashicons,
+#du2-com .dashicons,
+#slide-preview-com .dashicons {
+    font-size: 2em;
+}
+#slide-preview-com {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#timing-du-wrap,
+#timing-du2-wrap,
+#slide-preview-wrap {
+    padding: 10px;
+}
+
+#total-du,
+#total-du2 {
+    width: 6em;
+}
+
+#du-list,
+#du2-list {
+    margin: 60px 20px 0px 20px;
+    border: 1px solid #d0d0d0;
+}
+
+.du,
+.du2 {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+.du-btn {
+    display: inline-block;
+    width: 28px;
+    height: 24px;
+    padding-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    background: #f7f7f7;
+    -webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+    box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+    cursor: pointer;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.du-com .fa {
+    font-size: 20px;
+}
+
+.du-btn .du-tip {
+    position: absolute;
+    display: none;
+    background-color: #000;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: -58px;
+}
+
+.du-btn:hover .du-tip {
+    display: block;
+}
+
+.du-btn:hover .du-tip:hover {
+    display: none;
+}
+
+.du-btn .du-tip:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    display: block;
+    position: absolute;
+    margin-top: 22px;
+}
+
+.du-btn.dashicons {
+    padding: 3px;
+}
+
+.du-btn.pressed,
+.du-btn:active {
+    background: #d6d6d6;
+    border-color: #999;
+    color: #32373c;
+    -webkit-box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+    box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+}
+
+.du-btn.disabled {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    cursor: default;
+    color: #bbb;
+}
+
+.du > .duration,
+.du2 .duration {
+    height: 12px;
+}
+
+.du3 .duration {
+    height: 9px;
+}
+
+.du3 .duration-hndle {
+    cursor: move;
+    height: 8px;
+}
+
+.du > .duration .duration-hndle,
+.du2 .duration-hndle {
+    cursor: move;
+    height: 11px;
+    position: relative;
+}
+
+.du > .duration {
+    background-color: #d1d1d1;
+}
+
+.du > .duration .duration-hndle {
+    background-color: #222;
+}
+
+.du3 .duration {
+    background-color: #ffe99f;
+}
+
+.du2 .duration {
+    background-color: #fcb;
+}
+
+.du2 .duration-hndle {
+    background-color: #fe3939;
+}
+
+.du3 .duration-hndle {
+    background-color: #fc9c3e;
+}
+
+.du.empty > .duration {
+    background: url("../img/chess-dark.png") 0 0 repeat;
+}
+
+.du2.empty .duration {
+    background: url("../img/chess-red.png") 0 0 repeat;
+}
+
+.du.empty > .duration .duration-hndle,
+.du2.empty .duration-hndle {
+    cursor: default;
+    background-color: transparent;
+}
+
+.du3.empty .duration {
+    background: url("../img/chess-orange.png") 0 0 repeat;
+}
+
+.du3.empty .duration-hndle{
+    cursor: default;
+    background-color: transparent;
+}
+
+.du3 .du-btn {
+    width: 24px;
+    height: 20px;
+}
+
+.du3 .du-btn i {
+    font-size: 16px;
+}
+
+.fx-list-btn .fx-list {
+    display: none;
+    position: absolute;
+    background-color: #fbfbfb;
+    padding: 0.2em 1em;
+    border: 1px solid #d0d0d0;
+    margin-top: 5px;
+    text-align: left;
+    z-index: 10;
+}
+
+.fx-list-btn.pressed .fx-list {
+    display: block;
+    width: 350px;
+}

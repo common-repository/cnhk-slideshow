@@ -1,0 +1,153 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+#styling-preview-area,
+#styling-fields-area,
+#apply-styling-div {
+    position: absolute;
+}
+
+#apply-styling-div {
+    height: 49px;
+    width: 100%;
+    bottom: 0;
+    background-color: #f0f0f0;
+    border-top: 1px solid #d6d6d6;
+    text-align: right;
+    z-index: 30;
+}
+
+#apply-styling-div > button {
+    margin-right: 25px;
+    margin-top: 12px;
+}
+
+#styling-fields-area {
+    width: 319px;
+    border-left: 1px solid #d6d6d6;
+    background-color: #f0f0f0;
+    z-index: 25;
+}
+
+#styling-form-scroll {
+    position: absolute;
+}
+
+#styling-fields-com {
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+}
+
+.style-com {
+    display: inline-block;
+    margin: 8px;
+}
+
+.style-com .fa {
+    font-size: 36px;
+    color: #555;
+    cursor: pointer;
+}
+
+.style-com.stop .fa {
+    color: #bbb;
+    cursor: default;
+}
+
+.style-com .style-com-tip {
+    display: none;
+}
+
+#styling-fields-com {
+    position: relative;
+}
+
+#styling-fields-wrap {
+    position: relative;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.styling-block-wrap {
+    padding: 10px;
+    width: 300px;
+    position: absolute;
+    overflow-y: scroll
+}
+
+.styling-block-relwrap {
+    position: relative;
+}
+
+.styling-block p.fields-head {
+    font-weight: bold;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.styling-block .caption-name-head {
+    font-style: italic;
+    margin-left: 1em;
+}
+
+.styling-field {
+    margin-bottom: 2em;
+}
+
+.styling-field p.desc{
+    font-style: italic;
+    color: #888;
+    margin: 0;
+}
+
+#styling-preview-grid {
+    position: absolute;
+    left: 100%;
+    width: 15%;
+    top: 5%;
+    z-index: 20;
+}
+
+#styling-preview-grid.shown {
+	-webkit-transition: opacity .35s;
+	-moz-transition: opacity .35s;
+	-ms-transition: opacity .35s;
+	-o-transition: opacity .35s;
+	transition-property: .35s opacity;
+    opacity: 0.2;
+}
+
+#styling-preview-grid.shown:hover {
+    opacity: 1;
+}
+
+#styling-preview-grid #grid-form {
+    border: 1px solid #d0d0d0;
+    padding: 6px;
+    background-color: #fbfbfb;
+    border-right: none;
+}
+
+#styling-preview-grid #grid-hndle {
+    position: absolute;
+    width: 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: none;
+    height: 50%;
+    right: 100%;
+    top: 5%;
+    cursor: pointer;
+}
+
+#styling-preview-grid #grid-hndle:hover {
+    background-color: #d0d0d0;
+}

@@ -1,0 +1,90 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+.jssor-bullet-nav-wrap .jssor-bullet-nav {
+    font-family: FontAwesome;
+    cursor: pointer;
+}
+
+.jssor-bullet-nav-wrap .jssor-bullet-nav:before {
+    content: "\f10c";
+}
+
+.jssor-bullet-nav-wrap .jssor-bullet-nav:hover:before,
+.jssor-bullet-nav-wrap .jssor-bullet-navav:before {
+    content: "\f111";
+}
+
+.navarrow {
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.cnhkss-wrap {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cnhkss-wrap * {
+    line-height: 100% !important;
+}
+
+.cnhkss-wrap i {
+    font-style: italic;
+}
+
+.cnhkss-wrap b {
+    font-weight: bold;
+}
+
+.cnhkss-wrap img {
+    max-width: inherit ! important;
+}
+
+.cnhkss-wrap:hover .navarrow {
+    opacity: 1;
+}
+
+.cnhkss-wrap.boxed.boxleft {
+    float: left;
+    margin: 0.2em 0.6em;
+}
+
+.cnhkss-wrap.boxed.boxright {
+    float: right;
+    margin: 0.2em 0.6em;
+}
+
+.cnhkss-wrap.boxed.boxcenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cnhk-thumb-nav .thov {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.cnhk-thumb-nav:hover .thov,
+.cnhk-thumb-navav .thov {
+    background-color: transparent;
+}
+
+span.fa {
+    display: inline ! important;
+}

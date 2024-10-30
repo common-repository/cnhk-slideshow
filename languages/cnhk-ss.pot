@@ -1,0 +1,2762 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cnhk Slideshow\n"
+"POT-Creation-Date: 2015-10-08 17:33+0300\n"
+"PO-Revision-Date: 2015-10-07 15:01+0300\n"
+"Last-Translator: Rija Rajaonah\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-functions.php:10
+msgid "Ease Swing"
+msgstr ""
+
+#: admin/admin-functions.php:11
+msgid "Ease Linear"
+msgstr ""
+
+#: admin/admin-functions.php:12
+msgid "Ease In Quad"
+msgstr ""
+
+#: admin/admin-functions.php:13
+msgid "Ease Out Quad"
+msgstr ""
+
+#: admin/admin-functions.php:14
+msgid "Ease In Out Quad"
+msgstr ""
+
+#: admin/admin-functions.php:15
+msgid "Ease In Cubic"
+msgstr ""
+
+#: admin/admin-functions.php:16
+msgid "Ease Out Cubic"
+msgstr ""
+
+#: admin/admin-functions.php:17
+msgid "Ease In Out Cubic"
+msgstr ""
+
+#: admin/admin-functions.php:18
+msgid "Ease In Quart"
+msgstr ""
+
+#: admin/admin-functions.php:19
+msgid "Ease Out Quart"
+msgstr ""
+
+#: admin/admin-functions.php:20
+msgid "Ease In Out Quart"
+msgstr ""
+
+#: admin/admin-functions.php:21
+msgid "Ease In Quint"
+msgstr ""
+
+#: admin/admin-functions.php:22
+msgid "Ease Out Quint"
+msgstr ""
+
+#: admin/admin-functions.php:23
+msgid "Ease In Out Quint"
+msgstr ""
+
+#: admin/admin-functions.php:24
+msgid "Ease In Sine"
+msgstr ""
+
+#: admin/admin-functions.php:25
+msgid "Ease Out Sine"
+msgstr ""
+
+#: admin/admin-functions.php:26
+msgid "Ease In Out Sine"
+msgstr ""
+
+#: admin/admin-functions.php:27
+msgid "Ease In Expo"
+msgstr ""
+
+#: admin/admin-functions.php:28
+msgid "Ease Out Expo"
+msgstr ""
+
+#: admin/admin-functions.php:29
+msgid "Ease In Out Expo"
+msgstr ""
+
+#: admin/admin-functions.php:30
+msgid "Ease In Circ"
+msgstr ""
+
+#: admin/admin-functions.php:31
+msgid "Ease Out Circ"
+msgstr ""
+
+#: admin/admin-functions.php:32
+msgid "Ease In Out Circ"
+msgstr ""
+
+#: admin/admin-functions.php:33
+msgid "Ease In Elastic"
+msgstr ""
+
+#: admin/admin-functions.php:34
+msgid "Ease Out Elastic"
+msgstr ""
+
+#: admin/admin-functions.php:35
+msgid "Ease In Out Elastic"
+msgstr ""
+
+#: admin/admin-functions.php:36
+msgid "Ease In Back"
+msgstr ""
+
+#: admin/admin-functions.php:37
+msgid "Ease Out Back"
+msgstr ""
+
+#: admin/admin-functions.php:38
+msgid "Ease In Out Back"
+msgstr ""
+
+#: admin/admin-functions.php:39
+msgid "Ease In Bounce"
+msgstr ""
+
+#: admin/admin-functions.php:40
+msgid "Ease Out Bounce"
+msgstr ""
+
+#: admin/admin-functions.php:41
+msgid "Ease In Out Bounce"
+msgstr ""
+
+#: admin/admin-functions.php:42
+msgid "Ease Go Back"
+msgstr ""
+
+#: admin/admin-functions.php:43
+msgid "Ease In Wave"
+msgstr ""
+
+#: admin/admin-functions.php:44
+msgid "Ease Out Wave"
+msgstr ""
+
+#: admin/admin-functions.php:45
+msgid "Ease Out Jump"
+msgstr ""
+
+#: admin/admin-functions.php:46
+msgid "Ease In Jump"
+msgstr ""
+
+#: admin/admin-functions.php:99
+msgid "Select"
+msgstr ""
+
+#: admin/admin-functions.php:100 admin/class-admin.php:959
+msgid "Clear"
+msgstr ""
+
+#: admin/admin-functions.php:104
+msgid "collection"
+msgstr ""
+
+#: admin/admin-functions.php:105
+msgid "delete collection"
+msgstr ""
+
+#: admin/admin-functions.php:123
+msgid "add to existing collection"
+msgstr ""
+
+#: admin/admin-functions.php:128
+msgid "add to new collection"
+msgstr ""
+
+#: admin/admin-functions.php:131
+msgid "effect name"
+msgstr ""
+
+#: admin/admin-functions.php:133
+msgid "save"
+msgstr ""
+
+#: admin/admin-functions.php:166 admin/views/fx-builder-captions.php:51
+#: admin/views/fx-builder-slides.php:40
+msgid "add to collection"
+msgstr ""
+
+#: admin/class-admin-ajax.php:43 modules/caption/includes/ajax.php:50
+#: modules/slide-html/includes/ajax.php:27
+msgid " - copy"
+msgstr ""
+
+#: admin/class-admin.php:124 admin/class-admin.php:125
+#: admin/views/settings.php:15
+#: modules/caption/views/caption-timing-view.php:138
+msgid "Settings"
+msgstr ""
+
+#: admin/class-admin.php:133 admin/class-admin.php:134
+msgid "Effect Builder"
+msgstr ""
+
+#: admin/class-admin.php:162
+msgid "Slider template"
+msgstr ""
+
+#: admin/class-admin.php:163
+msgid "Template Tag"
+msgstr ""
+
+#: admin/class-admin.php:164
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-admin.php:186 admin/views/mbx-choose-template.php:48
+msgid "unknown template"
+msgstr ""
+
+#: admin/class-admin.php:307
+msgid "Settings updated"
+msgstr ""
+
+#: admin/class-admin.php:323
+msgid "Font added"
+msgstr ""
+
+#: admin/class-admin.php:346 admin/class-admin.php:367
+#: admin/class-admin.php:377
+msgid "Updated"
+msgstr ""
+
+#: admin/class-admin.php:490 admin/class-admin.php:678
+msgid "empty"
+msgstr ""
+
+#: admin/class-admin.php:491
+msgid "delete effect"
+msgstr ""
+
+#: admin/class-admin.php:492
+msgid "custom code"
+msgstr ""
+
+#: admin/class-admin.php:493
+msgid "this action failed"
+msgstr ""
+
+#: admin/class-admin.php:501
+msgid "action failed"
+msgstr ""
+
+#: admin/class-admin.php:502
+msgid "invalid collection name"
+msgstr ""
+
+#: admin/class-admin.php:503
+msgid "invalid effect name"
+msgstr ""
+
+#: admin/class-admin.php:504
+msgid "This name already exists in the collection. Replace it?"
+msgstr ""
+
+#: admin/class-admin.php:526 modules/caption/views/caption-styling-view.php:40
+#: modules/caption/views/caption-timing-view.php:106
+#: modules/caption/views/caption-timing-view.php:125
+#: modules/slide-html/views/layer-styling-view.php:40
+msgid "Preview"
+msgstr ""
+
+#: admin/class-admin.php:547 admin/class-admin.php:604
+#: admin/class-admin.php:650
+#: modules/caption/includes/caption-editor-markup.php:6
+#: modules/caption/views/caption-timing-view.php:146
+#: modules/editor/views/editor-image.php:18
+#: modules/editor/views/editor-link.php:60
+#: modules/slide-html/includes/editor-markup.php:6
+msgid "cancel"
+msgstr ""
+
+#: admin/class-admin.php:548 admin/class-admin.php:605
+#: admin/class-admin.php:651
+msgid "edited"
+msgstr ""
+
+#: admin/class-admin.php:549 admin/class-admin.php:606
+#: admin/class-admin.php:652
+msgid "Code"
+msgstr ""
+
+#: admin/class-admin.php:550 admin/class-admin.php:607
+#: admin/class-admin.php:653
+msgid "invalid code"
+msgstr ""
+
+#: admin/class-admin.php:551 admin/class-admin.php:608
+#: admin/class-admin.php:654
+msgid "Change"
+msgstr ""
+
+#: admin/class-admin.php:552 admin/class-admin.php:609
+#: admin/class-admin.php:655
+msgid "Duration (in ms)"
+msgstr ""
+
+#: admin/class-admin.php:553 admin/class-admin.php:610
+#: admin/class-admin.php:656
+msgid "Main duration (in ms)"
+msgstr ""
+
+#: admin/class-admin.php:554 admin/class-admin.php:611
+#: admin/class-admin.php:657
+msgid "Secondary duration (in ms)"
+msgstr ""
+
+#: admin/class-admin.php:574 modules/editor/editor.php:194
+#: modules/slide-html/views/admin-params.php:43
+msgid "select an image"
+msgstr ""
+
+#: admin/class-admin.php:575
+msgid "select"
+msgstr ""
+
+#: admin/class-admin.php:576
+msgid "invalid file type"
+msgstr ""
+
+#: admin/class-admin.php:679 admin/views/builder-template.php:159
+msgid "clear"
+msgstr ""
+
+#: admin/class-admin.php:680
+msgid "add twin effect"
+msgstr ""
+
+#: admin/class-admin.php:681 admin/views/builder-template.php:158
+msgid "edit twin effect"
+msgstr ""
+
+#: admin/class-admin.php:708
+msgid "twin effect"
+msgstr ""
+
+#: admin/class-admin.php:747
+msgid "Slides"
+msgstr ""
+
+#: admin/class-admin.php:757
+msgid "Basic Parameters"
+msgstr ""
+
+#: admin/class-admin.php:770
+msgid "Advanced Parameters"
+msgstr ""
+
+#: admin/class-admin.php:798
+msgid "Choose a template"
+msgstr ""
+
+#: admin/class-admin.php:817
+msgid "Add slide"
+msgstr ""
+
+#: admin/class-admin.php:819
+msgid "select slide type"
+msgstr ""
+
+#: admin/class-admin.php:828
+msgid "add slide"
+msgstr ""
+
+#: admin/class-admin.php:885
+msgid "Duplicate slide"
+msgstr ""
+
+#: admin/class-admin.php:886
+msgid "Preview slide"
+msgstr ""
+
+#: admin/class-admin.php:899
+msgid "Loading screen"
+msgstr ""
+
+#: admin/class-admin.php:902
+msgid ""
+"always use a background color for the loading screen if you do not want the "
+"current image to be visible (while still loading)"
+msgstr ""
+
+#: admin/class-admin.php:917
+msgid "Boxed slider"
+msgstr ""
+
+#: admin/class-admin.php:923
+msgid "wrap the slider inside of a box (aspect ratio always maintained)"
+msgstr ""
+
+#: admin/class-admin.php:927
+msgid "Relative box width"
+msgstr ""
+
+#: admin/class-admin.php:930
+msgid "in %, relative to the width of the parent element"
+msgstr ""
+
+#: admin/class-admin.php:933
+msgid "Box alignment"
+msgstr ""
+
+#: admin/class-admin.php:956
+msgid "Background image"
+msgstr ""
+
+#: admin/class-admin.php:958
+msgid "Select Image"
+msgstr ""
+
+#: admin/class-admin.php:961
+msgid "add a background image to the slider"
+msgstr ""
+
+#: admin/class-admin.php:968
+msgid "Background repeat"
+msgstr ""
+
+#: admin/class-admin.php:981
+msgid "Background position"
+msgstr ""
+
+#: admin/class-admin.php:983
+msgid "top left"
+msgstr ""
+
+#: admin/class-admin.php:984
+msgid "top center"
+msgstr ""
+
+#: admin/class-admin.php:985
+msgid "top right"
+msgstr ""
+
+#: admin/class-admin.php:986
+msgid "left middle"
+msgstr ""
+
+#: admin/class-admin.php:987
+msgid "center middle"
+msgstr ""
+
+#: admin/class-admin.php:988
+msgid "right middle"
+msgstr ""
+
+#: admin/class-admin.php:989
+msgid "bottom left"
+msgstr ""
+
+#: admin/class-admin.php:990
+msgid "bottom center"
+msgstr ""
+
+#: admin/class-admin.php:991
+msgid "bottom right"
+msgstr ""
+
+#: admin/class-admin.php:993
+msgid "position of the background image"
+msgstr ""
+
+#: admin/views/builder-template.php:9
+msgid "Straight"
+msgstr ""
+
+#: admin/views/builder-template.php:10
+msgid "Straight Stairs"
+msgstr ""
+
+#: admin/views/builder-template.php:11
+msgid "Swirl"
+msgstr ""
+
+#: admin/views/builder-template.php:12
+msgid "ZigZag"
+msgstr ""
+
+#: admin/views/builder-template.php:13
+msgid "Square"
+msgstr ""
+
+#: admin/views/builder-template.php:14
+msgid "Rectangle"
+msgstr ""
+
+#: admin/views/builder-template.php:15
+msgid "Circle"
+msgstr ""
+
+#: admin/views/builder-template.php:16
+msgid "Cross"
+msgstr ""
+
+#: admin/views/builder-template.php:17
+msgid "Rectangle Cross"
+msgstr ""
+
+#: admin/views/builder-template.php:18
+msgid "Random"
+msgstr ""
+
+#: admin/views/builder-template.php:21
+msgid "Bottom to Left"
+msgstr ""
+
+#: admin/views/builder-template.php:22
+msgid "Bottom to Right"
+msgstr ""
+
+#: admin/views/builder-template.php:23
+msgid "Top to Left"
+msgstr ""
+
+#: admin/views/builder-template.php:24
+msgid "Top to Right"
+msgstr ""
+
+#: admin/views/builder-template.php:25
+msgid "Left to Top"
+msgstr ""
+
+#: admin/views/builder-template.php:26
+msgid "Left to Bottom"
+msgstr ""
+
+#: admin/views/builder-template.php:27
+msgid "Right to Top"
+msgstr ""
+
+#: admin/views/builder-template.php:28
+msgid "Right to Bottom"
+msgstr ""
+
+#: admin/views/builder-template.php:105
+msgid "Around"
+msgstr ""
+
+#: admin/views/builder-template.php:106
+msgid "Left & Right"
+msgstr ""
+
+#: admin/views/builder-template.php:107
+msgid "Top & Bottom"
+msgstr ""
+
+#: admin/views/builder-template.php:108
+msgid "Top & Left"
+msgstr ""
+
+#: admin/views/builder-template.php:109
+msgid "Top & Right"
+msgstr ""
+
+#: admin/views/builder-template.php:110
+msgid "Bottom & Left"
+msgstr ""
+
+#: admin/views/builder-template.php:111
+msgid "Bottom & Right"
+msgstr ""
+
+#: admin/views/builder-template.php:112
+msgid "Top"
+msgstr ""
+
+#: admin/views/builder-template.php:113
+msgid "Bottom"
+msgstr ""
+
+#: admin/views/builder-template.php:114
+msgid "Left"
+msgstr ""
+
+#: admin/views/builder-template.php:115
+msgid "Right"
+msgstr ""
+
+#: admin/views/builder-template.php:116
+msgid "Exclude Top"
+msgstr ""
+
+#: admin/views/builder-template.php:117
+msgid "Exclude Bottom"
+msgstr ""
+
+#: admin/views/builder-template.php:118
+msgid "Exclude Left"
+msgstr ""
+
+#: admin/views/builder-template.php:119
+msgid "Exclude Right"
+msgstr ""
+
+#: admin/views/builder-template.php:153
+msgid ""
+"<strong>Caution:</strong> Animating simultaneously two big slides can be "
+"really heavy depending on the complexity of the transitions and the nature "
+"of the slide"
+msgstr ""
+
+#: admin/views/builder-template.php:160
+msgid "twin effect applies to the other slide involved in the transition"
+msgstr ""
+
+#: admin/views/builder-template.php:165
+msgid "Field with no impact"
+msgstr ""
+
+#: admin/views/builder-template.php:166
+msgid "Field with invalid value"
+msgstr ""
+
+#: admin/views/builder-template.php:167
+msgid "Modified field"
+msgstr ""
+
+#: admin/views/builder-template.php:172 admin/views/builder-template.php:693
+msgid "Main parameters"
+msgstr ""
+
+#: admin/views/builder-template.php:173 admin/views/builder-template.php:694
+msgid "Rows and columns (blocks)"
+msgstr ""
+
+#: admin/views/builder-template.php:174 admin/views/builder-template.php:695
+msgid "Options"
+msgstr ""
+
+#: admin/views/builder-template.php:179 admin/views/builder-template.php:699
+msgid "Formation"
+msgstr ""
+
+#: admin/views/builder-template.php:186 admin/views/builder-template.php:706
+msgid "Shape that assembly blocks as"
+msgstr ""
+
+#: admin/views/builder-template.php:188 admin/views/builder-template.php:708
+msgid "Assembly"
+msgstr ""
+
+#: admin/views/builder-template.php:195 admin/views/builder-template.php:715
+msgid "The way to assembly blocks"
+msgstr ""
+
+#: admin/views/builder-template.php:198 admin/views/builder-template.php:717
+msgid "Duration"
+msgstr ""
+
+#: admin/views/builder-template.php:204 admin/views/builder-template.php:724
+msgid "Duration of the whole transition (in ms)"
+msgstr ""
+
+#: admin/views/builder-template.php:209 admin/views/builder-template.php:729
+msgid "Columns"
+msgstr ""
+
+#: admin/views/builder-template.php:215 admin/views/builder-template.php:735
+msgid "Number of columns"
+msgstr ""
+
+#: admin/views/builder-template.php:217 admin/views/builder-template.php:737
+msgid "Rows"
+msgstr ""
+
+#: admin/views/builder-template.php:223 admin/views/builder-template.php:743
+msgid "Number of rows"
+msgstr ""
+
+#: admin/views/builder-template.php:225 admin/views/builder-template.php:745
+msgid "Delay"
+msgstr ""
+
+#: admin/views/builder-template.php:231 admin/views/builder-template.php:751
+msgid "Delay to assembly blocks (in ms)"
+msgstr ""
+
+#: admin/views/builder-template.php:237
+msgid "Reverse"
+msgstr ""
+
+#: admin/views/builder-template.php:240
+msgid "Reverse the assembly order"
+msgstr ""
+
+#: admin/views/builder-template.php:242
+msgid "Slide Out"
+msgstr ""
+
+#: admin/views/builder-template.php:245
+msgid "Apply effects when slide goes out"
+msgstr ""
+
+#: admin/views/builder-template.php:247
+msgid "Play Outside"
+msgstr ""
+
+#: admin/views/builder-template.php:252
+msgid ""
+"<b>Caution</b>: When used in combination with a zoom, rotate or fly effect, "
+"with a too big scale, it might cause the page ( or some parts of the page ) "
+"to be enlarged. ( might break the page design ) "
+msgstr ""
+
+#: admin/views/builder-template.php:259
+msgid "Display slides/blocks even when outside the slider area"
+msgstr ""
+
+#: admin/views/builder-template.php:262 admin/views/builder-template.php:755
+msgid "Move"
+msgstr ""
+
+#: admin/views/builder-template.php:272 admin/views/builder-template.php:765
+msgid "Move block while clipping"
+msgstr ""
+
+#: admin/views/builder-template.php:278 admin/views/builder-template.php:284
+#: admin/views/builder-template.php:771 admin/views/builder-template.php:777
+msgid "Fly (horz)"
+msgstr ""
+
+#: admin/views/builder-template.php:279 admin/views/builder-template.php:341
+#: admin/views/builder-template.php:772 admin/views/builder-template.php:834
+msgid "Fly (vert)"
+msgstr ""
+
+#: admin/views/builder-template.php:280 admin/views/builder-template.php:402
+#: admin/views/builder-template.php:773 admin/views/builder-template.php:895
+msgid "Clip"
+msgstr ""
+
+#: admin/views/builder-template.php:297 admin/views/builder-template.php:790
+msgid "To Right"
+msgstr ""
+
+#: admin/views/builder-template.php:298 admin/views/builder-template.php:791
+msgid "To Left"
+msgstr ""
+
+#: admin/views/builder-template.php:300 admin/views/builder-template.php:793
+msgid "Horizontal fly effect"
+msgstr ""
+
+#: admin/views/builder-template.php:302 admin/views/builder-template.php:795
+msgid "During (horz)"
+msgstr ""
+
+#: admin/views/builder-template.php:306 admin/views/builder-template.php:364
+#: admin/views/builder-template.php:416 admin/views/builder-template.php:475
+#: admin/views/builder-template.php:522 admin/views/builder-template.php:569
+#: admin/views/builder-template.php:613 admin/views/builder-template.php:799
+#: admin/views/builder-template.php:857 admin/views/builder-template.php:909
+#: admin/views/builder-template.php:968 admin/views/builder-template.php:1015
+#: admin/views/builder-template.php:1062 admin/views/builder-template.php:1106
+msgid "to"
+msgstr ""
+
+#: admin/views/builder-template.php:310 admin/views/builder-template.php:368
+#: admin/views/builder-template.php:420 admin/views/builder-template.php:479
+#: admin/views/builder-template.php:526 admin/views/builder-template.php:573
+#: admin/views/builder-template.php:617 admin/views/builder-template.php:803
+#: admin/views/builder-template.php:861 admin/views/builder-template.php:913
+#: admin/views/builder-template.php:972 admin/views/builder-template.php:1019
+#: admin/views/builder-template.php:1066 admin/views/builder-template.php:1110
+msgid ""
+"Start and end time of the effect<br />(relative to the total transition "
+"duration)"
+msgstr ""
+
+#: admin/views/builder-template.php:311 admin/views/builder-template.php:804
+msgid "Easing (horz)"
+msgstr ""
+
+#: admin/views/builder-template.php:318 admin/views/builder-template.php:377
+#: admin/views/builder-template.php:429 admin/views/builder-template.php:489
+#: admin/views/builder-template.php:536 admin/views/builder-template.php:583
+#: admin/views/builder-template.php:634 admin/views/builder-template.php:811
+#: admin/views/builder-template.php:870 admin/views/builder-template.php:922
+#: admin/views/builder-template.php:982 admin/views/builder-template.php:1029
+#: admin/views/builder-template.php:1076 admin/views/builder-template.php:1127
+msgid "Speed variation"
+msgstr ""
+
+#: admin/views/builder-template.php:326 admin/views/builder-template.php:819
+msgid "Scale (horz)"
+msgstr ""
+
+#: admin/views/builder-template.php:328 admin/views/builder-template.php:821
+msgid ""
+"Distance covered by the effect.<br /> 1 corresponds to one time the slide "
+"width"
+msgstr ""
+
+#: admin/views/builder-template.php:330 admin/views/builder-template.php:823
+msgid "Round (horz)"
+msgstr ""
+
+#: admin/views/builder-template.php:337 admin/views/builder-template.php:398
+#: admin/views/builder-template.php:454 admin/views/builder-template.php:509
+#: admin/views/builder-template.php:556 admin/views/builder-template.php:644
+#: admin/views/builder-template.php:830 admin/views/builder-template.php:891
+#: admin/views/builder-template.php:947 admin/views/builder-template.php:1002
+#: admin/views/builder-template.php:1049 admin/views/builder-template.php:1137
+msgid "Repetition"
+msgstr ""
+
+#: admin/views/builder-template.php:354 admin/views/builder-template.php:847
+msgid "To Bottom"
+msgstr ""
+
+#: admin/views/builder-template.php:355 admin/views/builder-template.php:848
+msgid "To Top"
+msgstr ""
+
+#: admin/views/builder-template.php:357 admin/views/builder-template.php:850
+msgid "Vertical fly effect"
+msgstr ""
+
+#: admin/views/builder-template.php:360 admin/views/builder-template.php:853
+msgid "During (vert)"
+msgstr ""
+
+#: admin/views/builder-template.php:370 admin/views/builder-template.php:863
+msgid "Easing (vert)"
+msgstr ""
+
+#: admin/views/builder-template.php:386 admin/views/builder-template.php:879
+msgid "Scale (vert)"
+msgstr ""
+
+#: admin/views/builder-template.php:388 admin/views/builder-template.php:881
+msgid ""
+"Distance covered by the effect.<br /> 1 corresponds to one time the slide "
+"height"
+msgstr ""
+
+#: admin/views/builder-template.php:391 admin/views/builder-template.php:884
+msgid "Round (vert)"
+msgstr ""
+
+#: admin/views/builder-template.php:409 admin/views/builder-template.php:902
+msgid "Clip blocks"
+msgstr ""
+
+#: admin/views/builder-template.php:412 admin/views/builder-template.php:905
+msgid "During (clip)"
+msgstr ""
+
+#: admin/views/builder-template.php:422 admin/views/builder-template.php:915
+msgid "Easing (clip)"
+msgstr ""
+
+#: admin/views/builder-template.php:442 admin/views/builder-template.php:935
+msgid "Scale (clip)"
+msgstr ""
+
+#: admin/views/builder-template.php:444 admin/views/builder-template.php:937
+msgid "Clip proportion. 1 means clip blocks entirely"
+msgstr ""
+
+#: admin/views/builder-template.php:447 admin/views/builder-template.php:940
+msgid "Round (clip)"
+msgstr ""
+
+#: admin/views/builder-template.php:460 admin/views/builder-template.php:466
+#: admin/views/builder-template.php:953 admin/views/builder-template.php:959
+msgid "Zoom"
+msgstr ""
+
+#: admin/views/builder-template.php:461 admin/views/builder-template.php:513
+#: admin/views/builder-template.php:954 admin/views/builder-template.php:1006
+msgid "Rotate"
+msgstr ""
+
+#: admin/views/builder-template.php:462 admin/views/builder-template.php:560
+#: admin/views/builder-template.php:955 admin/views/builder-template.php:1053
+msgid "Fade"
+msgstr ""
+
+#: admin/views/builder-template.php:471 admin/views/builder-template.php:964
+msgid "During (zoom)"
+msgstr ""
+
+#: admin/views/builder-template.php:482 admin/views/builder-template.php:975
+msgid "Easing (zoom)"
+msgstr ""
+
+#: admin/views/builder-template.php:497 admin/views/builder-template.php:990
+msgid "Scale (zoom)"
+msgstr ""
+
+#: admin/views/builder-template.php:499 admin/views/builder-template.php:992
+msgid "Zoom intensity. 0 corresponds to a completely disappeared block."
+msgstr ""
+
+#: admin/views/builder-template.php:502 admin/views/builder-template.php:995
+msgid "Round (zoom)"
+msgstr ""
+
+#: admin/views/builder-template.php:518 admin/views/builder-template.php:1011
+msgid "During (rotate)"
+msgstr ""
+
+#: admin/views/builder-template.php:529 admin/views/builder-template.php:1022
+msgid "Easing (rotate)"
+msgstr ""
+
+#: admin/views/builder-template.php:544 admin/views/builder-template.php:1037
+msgid "Scale (rotate)"
+msgstr ""
+
+#: admin/views/builder-template.php:546 admin/views/builder-template.php:1039
+msgid ""
+"1 corresponds to a 360 degrees rotation<br />(-1 for a clockwise rotation)"
+msgstr ""
+
+#: admin/views/builder-template.php:549 admin/views/builder-template.php:1042
+msgid "Round (rotate)"
+msgstr ""
+
+#: admin/views/builder-template.php:565 admin/views/builder-template.php:1058
+msgid "During (fade)"
+msgstr ""
+
+#: admin/views/builder-template.php:576 admin/views/builder-template.php:1069
+msgid "Easing (fade)"
+msgstr ""
+
+#: admin/views/builder-template.php:591 admin/views/builder-template.php:1084
+msgid "Scale (fade)"
+msgstr ""
+
+#: admin/views/builder-template.php:593 admin/views/builder-template.php:1086
+msgid "Fade intensity. ( 0 to 1 )"
+msgstr ""
+
+#: admin/views/builder-template.php:599 admin/views/builder-template.php:604
+#: admin/views/builder-template.php:1092 admin/views/builder-template.php:1097
+msgid "Z-index"
+msgstr ""
+
+#: admin/views/builder-template.php:600 admin/views/builder-template.php:1093
+msgid "Chess Mode (fly and move effect)"
+msgstr ""
+
+#: admin/views/builder-template.php:609 admin/views/builder-template.php:1102
+msgid "During (z-index)"
+msgstr ""
+
+#: admin/views/builder-template.php:620 admin/views/builder-template.php:1113
+msgid "Scale (z-index)"
+msgstr ""
+
+#: admin/views/builder-template.php:624 admin/views/builder-template.php:1117
+msgid "The final z-index to reach."
+msgstr ""
+
+#: admin/views/builder-template.php:627 admin/views/builder-template.php:1120
+msgid "Easing (z-index)"
+msgstr ""
+
+#: admin/views/builder-template.php:637 admin/views/builder-template.php:1130
+msgid "Round (z-index)"
+msgstr ""
+
+#: admin/views/builder-template.php:649 admin/views/builder-template.php:1141
+msgid "Chess column Horizontal"
+msgstr ""
+
+#: admin/views/builder-template.php:653 admin/views/builder-template.php:1145
+msgid ""
+"Alternate blocks movement direction by column for horizontal effects ( fly "
+"and clip )"
+msgstr ""
+
+#: admin/views/builder-template.php:656 admin/views/builder-template.php:1148
+msgid "Chess column Vertical"
+msgstr ""
+
+#: admin/views/builder-template.php:660 admin/views/builder-template.php:1152
+msgid ""
+"Alternate blocks movement direction by column for vertical effects ( fly and "
+"clip )"
+msgstr ""
+
+#: admin/views/builder-template.php:663 admin/views/builder-template.php:1155
+msgid "Chess row Horizontal"
+msgstr ""
+
+#: admin/views/builder-template.php:667 admin/views/builder-template.php:1159
+msgid ""
+"Alternate blocks movement direction by row for horizontal effects ( fly and "
+"clip )"
+msgstr ""
+
+#: admin/views/builder-template.php:670 admin/views/builder-template.php:1162
+msgid "Chess row Vertical"
+msgstr ""
+
+#: admin/views/builder-template.php:674 admin/views/builder-template.php:1166
+msgid ""
+"Alternate blocks movement direction by row for vertical effects ( fly and "
+"clip )"
+msgstr ""
+
+#: admin/views/builder-template.php:687
+msgid "twin effect code"
+msgstr ""
+
+#: admin/views/builder-template.php:1174
+#: modules/caption/includes/caption-editor-markup.php:7
+#: modules/editor/views/editor-image.php:19
+#: modules/slide-html/includes/editor-markup.php:7
+msgid "apply changes"
+msgstr ""
+
+#: admin/views/fx-builder-captions.php:16 admin/views/fx-builder-slides.php:5
+#: modules/template-advanced/includes/class-template-advanced.php:68
+#: modules/template-classic/includes/class-template-classic.php:66
+#: modules/template-image/includes/class-template-image.php:62
+msgid "Slider preview"
+msgstr ""
+
+#: admin/views/fx-builder-captions.php:26
+msgid "Load a caption transition code"
+msgstr ""
+
+#: admin/views/fx-builder-captions.php:27
+msgid "Predefined caption transition"
+msgstr ""
+
+#: admin/views/fx-builder-captions.php:37
+#: admin/views/fx-builder-captions.php:42 admin/views/fx-builder-slides.php:25
+#: admin/views/fx-builder-slides.php:31
+msgid "Load"
+msgstr ""
+
+#: admin/views/fx-builder-captions.php:40 admin/views/fx-builder-slides.php:29
+#: modules/caption/views/caption-timing-view.php:13
+#: modules/caption/views/caption-timing-view.php:48
+#: modules/caption/views/caption-timing-view.php:80
+msgid "Your collections"
+msgstr ""
+
+#: admin/views/fx-builder-captions.php:46 admin/views/fx-builder-slides.php:36
+msgid "Effect code"
+msgstr ""
+
+#: admin/views/fx-builder-captions.php:52 admin/views/fx-builder-slides.php:41
+msgid "play transition"
+msgstr ""
+
+#: admin/views/fx-builder-slides.php:15
+msgid "Load a slide transition code"
+msgstr ""
+
+#: admin/views/fx-builder-slides.php:16
+msgid "Predefined Slide transition"
+msgstr ""
+
+#: admin/views/fx-builder.php:5
+#: modules/template-advanced/views/basic-params.php:24
+#: modules/template-image/views/basic-params.php:25
+msgid "Slide transitions"
+msgstr ""
+
+#: admin/views/fx-builder.php:9
+msgid "Caption Effects"
+msgstr ""
+
+#: admin/views/fx-builder.php:19
+msgid "Effect builder"
+msgstr ""
+
+#: admin/views/fx-builder.php:30 admin/views/settings.php:26
+msgid "Dismiss this notice."
+msgstr ""
+
+#: admin/views/mbx-choose-template.php:7
+msgid "Template"
+msgstr ""
+
+#: admin/views/mbx-choose-template.php:8 admin/views/settings-general.php:25
+msgid "Description"
+msgstr ""
+
+#: admin/views/mbx-choose-template.php:25
+msgid "choose"
+msgstr ""
+
+#: admin/views/mbx-choose-template.php:41
+msgid "Or duplicate an existing slider"
+msgstr ""
+
+#: admin/views/mbx-choose-template.php:49
+msgid "no title"
+msgstr ""
+
+#: admin/views/mbx-choose-template.php:54
+msgid "duplicate"
+msgstr ""
+
+#: admin/views/settings-general.php:19
+msgid "Disable unused modules to avoid unnecessary processing."
+msgstr ""
+
+#: admin/views/settings-general.php:23
+msgid "Active"
+msgstr ""
+
+#: admin/views/settings-general.php:24 modules/fonts/views/settings.php:13
+msgid "Name"
+msgstr ""
+
+#: admin/views/settings-general.php:26
+msgid "is used ( by at least one slider )"
+msgstr ""
+
+#: admin/views/settings-general.php:42 modules/fonts/views/settings.php:40
+#: modules/fonts/views/settings.php:45
+msgid "yes"
+msgstr ""
+
+#: admin/views/settings-general.php:42 modules/fonts/views/settings.php:40
+#: modules/fonts/views/settings.php:45
+msgid "no"
+msgstr ""
+
+#: admin/views/settings-general.php:48
+msgid "Save changes"
+msgstr ""
+
+#: admin/views/settings.php:5
+msgid "Modules"
+msgstr ""
+
+#: includes/class-fx.php:226
+msgid "custom effect"
+msgstr ""
+
+#: includes/class-slider-widget.php:11
+msgid "Use this widget to display a slider"
+msgstr ""
+
+#: includes/class-slider-widget.php:41 modules/editor/views/editor-link.php:38
+#: modules/slide-vimeo/views/admin-params.php:57
+msgid "Title"
+msgstr ""
+
+#: includes/class-slider-widget.php:45
+msgid "Select a slider"
+msgstr ""
+
+#: includes/class-slider-widget.php:48
+msgid "no slider found"
+msgstr ""
+
+#: includes/class-ss.php:186
+msgid "Sliders"
+msgstr ""
+
+#: includes/class-ss.php:187 includes/class-ss.php:203
+msgid "Slider"
+msgstr ""
+
+#: includes/class-ss.php:188 includes/class-ss.php:192
+msgid "New Slider"
+msgstr ""
+
+#: includes/class-ss.php:189
+msgid "Add New Slider"
+msgstr ""
+
+#: includes/class-ss.php:190
+msgid "Edit"
+msgstr ""
+
+#: includes/class-ss.php:191
+msgid "Edit Slider"
+msgstr ""
+
+#: includes/class-ss.php:193
+msgid "View"
+msgstr ""
+
+#: includes/class-ss.php:194
+msgid "View Slider"
+msgstr ""
+
+#: includes/class-ss.php:195
+msgid "Search Slider"
+msgstr ""
+
+#: includes/class-ss.php:196
+msgid "No Slider found"
+msgstr ""
+
+#: includes/class-ss.php:197
+msgid "No Slider found in Trash"
+msgstr ""
+
+#: includes/class-ss.php:198
+msgid "Parent Slider"
+msgstr ""
+
+#: includes/class-template-abstract.php:95
+msgid "Stretch"
+msgstr ""
+
+#: includes/class-template-abstract.php:96
+msgid "Stretch images to fit slider dimensions"
+msgstr ""
+
+#: includes/class-template-abstract.php:100
+msgid "Contain"
+msgstr ""
+
+#: includes/class-template-abstract.php:101
+msgid "keep aspect ratio and put all inside slide"
+msgstr ""
+
+#: includes/class-template-abstract.php:105
+msgid "Cover"
+msgstr ""
+
+#: includes/class-template-abstract.php:106
+msgid "keep aspect ratio and cover whole slide"
+msgstr ""
+
+#: includes/class-template-abstract.php:110
+msgid "As is"
+msgstr ""
+
+#: includes/class-template-abstract.php:111
+msgid "keep image size as is no matter the slider size"
+msgstr ""
+
+#: includes/class-template-abstract.php:115
+msgid "Mixed"
+msgstr ""
+
+#: includes/class-template-abstract.php:116
+msgid "contain for large image, as is for the small ones"
+msgstr ""
+
+#: includes/class-template-abstract.php:124
+msgid "None"
+msgstr ""
+
+#: includes/class-template-abstract.php:125
+msgid "no pause"
+msgstr ""
+
+#: includes/class-template-abstract.php:129
+msgid "Pause desktop"
+msgstr ""
+
+#: includes/class-template-abstract.php:130
+msgid ""
+"pause for desktop, slide progression continues but the next transition is "
+"blocked"
+msgstr ""
+
+#: includes/class-template-abstract.php:134
+msgid "Pause touch device"
+msgstr ""
+
+#: includes/class-template-abstract.php:135
+msgid ""
+"pause for touch device, slide progression continues but the next transition "
+"is blocked"
+msgstr ""
+
+#: includes/class-template-abstract.php:139
+msgid "Pause both"
+msgstr ""
+
+#: includes/class-template-abstract.php:140
+msgid "pause for both desktop and touch device"
+msgstr ""
+
+#: includes/class-template-abstract.php:144
+msgid "Freeze desktop"
+msgstr ""
+
+#: includes/class-template-abstract.php:145
+msgid "freeze for desktop, slide progression is stopped immediately"
+msgstr ""
+
+#: includes/class-template-abstract.php:149
+msgid "Freeze touch device"
+msgstr ""
+
+#: includes/class-template-abstract.php:150
+msgid "freeze for touch device, slide progression is stopped immediately"
+msgstr ""
+
+#: includes/class-template-abstract.php:154
+msgid "Freeze both"
+msgstr ""
+
+#: includes/class-template-abstract.php:155
+msgid "freeze for both desktop and touch device"
+msgstr ""
+
+#: includes/class-template-abstract.php:163
+#: includes/class-template-abstract.php:187
+msgid "Horizontal"
+msgstr ""
+
+#: includes/class-template-abstract.php:168
+#: includes/class-template-abstract.php:192
+msgid "Vertical"
+msgstr ""
+
+#: includes/class-template-abstract.php:173
+msgid "Reverse Horizontal"
+msgstr ""
+
+#: includes/class-template-abstract.php:178
+msgid "Reverse Vertical"
+msgstr ""
+
+#: includes/class-template-abstract.php:197
+msgid "Both"
+msgstr ""
+
+#: includes/class-template-abstract.php:206
+#: includes/class-template-abstract.php:207
+msgid "no alignment"
+msgstr ""
+
+#: includes/class-template-abstract.php:211
+#: modules/editor/views/editor-image.php:7
+#: modules/nav-progress/includes/admin-params.php:35
+#: modules/nav-thumb/includes/admin-params.php:43
+msgid "left"
+msgstr ""
+
+#: includes/class-template-abstract.php:212
+msgid "left floating box"
+msgstr ""
+
+#: includes/class-template-abstract.php:216
+#: modules/editor/views/editor-image.php:8
+#: modules/nav-progress/includes/admin-params.php:37
+#: modules/nav-thumb/includes/admin-params.php:44
+msgid "right"
+msgstr ""
+
+#: includes/class-template-abstract.php:217
+msgid "right floating box"
+msgstr ""
+
+#: includes/class-template-abstract.php:221
+msgid "centered"
+msgstr ""
+
+#: includes/class-template-abstract.php:222
+msgid "centered box"
+msgstr ""
+
+#: includes/class-template-abstract.php:230
+msgid "cover"
+msgstr ""
+
+#: includes/class-template-abstract.php:231
+msgid "cover the entire area (some part might be hidden)"
+msgstr ""
+
+#: includes/class-template-abstract.php:235
+msgid "repeat horizontally"
+msgstr ""
+
+#: includes/class-template-abstract.php:236
+msgid "repeated horizontally, no scaling"
+msgstr ""
+
+#: includes/class-template-abstract.php:240
+msgid "repeat vertically"
+msgstr ""
+
+#: includes/class-template-abstract.php:241
+msgid "repeated vertically, no scaling"
+msgstr ""
+
+#: includes/class-template-abstract.php:245
+msgid "repeat"
+msgstr ""
+
+#: includes/class-template-abstract.php:246
+msgid "repeated both horizontally and vertically"
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:4
+#: modules/slide-html/views/admin-params.php:15
+#: modules/slide-image/admin-params.php:15
+#: modules/slide-vimeo/views/admin-params.php:13
+#: modules/slide-youtube/views/admin-params.php:13
+msgid "remove"
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:8
+#: modules/slide-html/views/admin-params.php:13
+#: modules/slide-image/admin-params.php:13
+#: modules/slide-vimeo/views/admin-params.php:11
+#: modules/slide-youtube/views/admin-params.php:11
+msgid "sort"
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:19
+msgid "Caption name"
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:21
+msgid "The caption name is for administration only."
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:25
+#: modules/slide-html/views/single-layer-params.php:26
+msgid "Edit content"
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:26
+#: modules/slide-html/views/single-layer-params.php:27
+msgid "Style and position"
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:27
+msgid "Transition and timing"
+msgstr ""
+
+#: modules/caption/includes/admin-params.php:28
+msgid "Duplicate caption"
+msgstr ""
+
+#: modules/caption/includes/class-caption-admin.php:84
+msgid "Caption styling and positioning"
+msgstr ""
+
+#: modules/caption/includes/class-caption-admin.php:96
+msgid "Caption transitions and timing"
+msgstr ""
+
+#: modules/caption/includes/class-caption-admin.php:151
+msgid "Captions"
+msgstr ""
+
+#: modules/caption/includes/class-caption-admin.php:169
+msgid "add caption"
+msgstr ""
+
+#: modules/caption/includes/class-caption-admin.php:171
+msgid "paste the copied caption"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:5
+#: modules/slide-html/views/layer-styling-view.php:5
+msgid "Grid"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:6
+#: modules/slide-html/views/layer-styling-view.php:6
+msgid "enable"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:7
+#: modules/slide-html/views/layer-styling-view.php:7
+msgid "grid size"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:37
+msgid "Caption name: "
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:43
+#: modules/slide-html/views/layer-styling-view.php:43
+msgid "show bounds"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:47
+#: modules/slide-html/views/layer-styling-view.php:47
+msgid "always visible on the preview"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:50
+#: modules/slide-html/views/layer-styling-view.php:50
+msgid "Position"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:52
+#: modules/caption/views/caption-styling-view.php:56
+#: modules/caption/views/caption-styling-view.php:62
+#: modules/caption/views/caption-styling-view.php:66
+#: modules/slide-html/views/layer-styling-view.php:52
+#: modules/slide-html/views/layer-styling-view.php:56
+#: modules/slide-html/views/layer-styling-view.php:62
+#: modules/slide-html/views/layer-styling-view.php:66
+msgid "set"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:53
+#: modules/slide-html/views/layer-styling-view.php:53
+msgid "horizontal distance from the left border of slide"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:57
+#: modules/slide-html/views/layer-styling-view.php:57
+msgid "vertical distance from the top border of slide"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:60
+#: modules/editor/views/editor-icon.php:29
+#: modules/slide-html/views/layer-styling-view.php:60
+msgid "Size"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:63
+#: modules/slide-html/views/layer-styling-view.php:63
+msgid "width (in pixels)"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:67
+#: modules/slide-html/views/layer-styling-view.php:67
+msgid "height (in pixels)"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:69
+#: modules/slide-html/views/layer-styling-view.php:70
+msgid "Content"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:72
+#: modules/slide-html/views/layer-styling-view.php:73
+msgid "text and icons color"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:76
+#: modules/slide-html/views/layer-styling-view.php:77
+msgid "line height (in pixels)"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:86
+#: modules/slide-html/views/layer-styling-view.php:87
+msgid "font family"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:88
+#: modules/slide-html/views/admin-params.php:38
+#: modules/slide-html/views/layer-styling-view.php:90
+msgid "Background"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:91
+#: modules/nav-arrows/includes/admin-params.php:132
+#: modules/slide-html/views/admin-params.php:47
+#: modules/slide-html/views/layer-styling-view.php:93
+msgid "background color"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:96
+#: modules/nav-arrows/includes/admin-params.php:138
+#: modules/slide-html/views/layer-styling-view.php:98
+msgid "background opacity"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:97
+msgid " (does not work in IE 8)"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:101
+#: modules/slide-html/views/layer-styling-view.php:104
+msgid "Padding"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:104
+#: modules/slide-html/views/layer-styling-view.php:107
+msgid "horizontal padding"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:108
+#: modules/slide-html/views/layer-styling-view.php:111
+msgid "vertical padding"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:110
+#: modules/slide-html/views/layer-styling-view.php:113
+msgid "Border"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:113
+#: modules/editor/views/editor-image.php:6
+#: modules/slide-html/views/layer-styling-view.php:116
+msgid "none"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:114
+#: modules/slide-html/views/layer-styling-view.php:117
+msgid "solid"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:115
+#: modules/slide-html/views/layer-styling-view.php:118
+msgid "dashed"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:116
+#: modules/slide-html/views/layer-styling-view.php:119
+msgid "dotted"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:118
+#: modules/slide-html/views/layer-styling-view.php:121
+msgid "border style"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:122
+#: modules/slide-html/views/layer-styling-view.php:125
+msgid "border width"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:126
+#: modules/slide-html/views/layer-styling-view.php:129
+msgid "border color"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:129
+#: modules/slide-html/views/layer-styling-view.php:132
+msgid "rounded corner (in px)"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:130
+#: modules/slide-html/views/layer-styling-view.php:133
+msgid "Top left"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:131
+#: modules/slide-html/views/layer-styling-view.php:134
+msgid "Top right"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:132
+#: modules/slide-html/views/layer-styling-view.php:135
+msgid "Bottom left"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:133
+#: modules/slide-html/views/layer-styling-view.php:136
+msgid "Bottom right"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:135
+#: modules/slide-html/views/layer-styling-view.php:138
+msgid " (not working in IE 8)"
+msgstr ""
+
+#: modules/caption/views/caption-styling-view.php:146
+#: modules/caption/views/caption-timing-view.php:145
+#: modules/slide-html/views/layer-styling-view.php:149
+msgid "Apply changes"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:10
+msgid "play in effect"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:22
+#: modules/caption/views/caption-timing-view.php:57
+#: modules/caption/views/caption-timing-view.php:89
+msgid "load effect"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:27
+msgid "immediate play out"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:31
+#: modules/caption/views/caption-timing-view.php:62
+#: modules/caption/views/caption-timing-view.php:94
+msgid "remove effect"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:45
+#: modules/caption/views/caption-timing-view.php:77
+msgid "play out effect"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:74
+msgid "Immediate play out transition"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:102
+msgid "Play in duration (ms)"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:110
+msgid "out effects"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:117
+msgid "Play out duration (ms)"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:121
+msgid "in effects"
+msgstr ""
+
+#: modules/caption/views/caption-timing-view.php:134
+msgid "Play"
+msgstr ""
+
+#: modules/editor/editor.php:27
+msgid "visual"
+msgstr ""
+
+#: modules/editor/editor.php:34
+msgid "Undo"
+msgstr ""
+
+#: modules/editor/editor.php:38
+msgid "Redo"
+msgstr ""
+
+#: modules/editor/editor.php:43
+msgid "Bold"
+msgstr ""
+
+#: modules/editor/editor.php:47
+msgid "Underline"
+msgstr ""
+
+#: modules/editor/editor.php:51
+msgid "Italic"
+msgstr ""
+
+#: modules/editor/editor.php:55
+msgid "font size"
+msgstr ""
+
+#: modules/editor/editor.php:63
+msgid "Align left"
+msgstr ""
+
+#: modules/editor/editor.php:67
+msgid "Align center"
+msgstr ""
+
+#: modules/editor/editor.php:71
+msgid "Align right"
+msgstr ""
+
+#: modules/editor/editor.php:75
+msgid "Justify"
+msgstr ""
+
+#: modules/editor/editor.php:80
+msgid "List"
+msgstr ""
+
+#: modules/editor/editor.php:84
+msgid "Ordered list"
+msgstr ""
+
+#: modules/editor/editor.php:89
+msgid "Insert image"
+msgstr ""
+
+#: modules/editor/editor.php:93
+msgid "Insert icon"
+msgstr ""
+
+#: modules/editor/editor.php:97
+msgid "Insert link"
+msgstr ""
+
+#: modules/editor/editor.php:101
+msgid "Remove link"
+msgstr ""
+
+#: modules/editor/editor.php:107 modules/editor/editor.php:222
+msgid "Expand"
+msgstr ""
+
+#: modules/editor/editor.php:157
+msgid "Image size and alignment"
+msgstr ""
+
+#: modules/editor/editor.php:169
+msgid "Select an icon"
+msgstr ""
+
+#: modules/editor/editor.php:181
+msgid "Links"
+msgstr ""
+
+#: modules/editor/editor.php:193 modules/editor/views/editor-icon.php:35
+#: modules/editor/views/editor-link.php:61
+msgid "insert"
+msgstr ""
+
+#: modules/editor/editor.php:223
+msgid "Contract"
+msgstr ""
+
+#: modules/editor/views/editor-icon.php:8
+msgid "Search icon"
+msgstr ""
+
+#: modules/editor/views/editor-icon.php:19
+msgid "No icon found"
+msgstr ""
+
+#: modules/editor/views/editor-icon.php:25
+msgid "No icon selected"
+msgstr ""
+
+#: modules/editor/views/editor-icon.php:31
+#: modules/nav-arrows/includes/admin-params.php:45
+msgid "icon size in pixels"
+msgstr ""
+
+#: modules/editor/views/editor-icon.php:36
+msgid "delete icon"
+msgstr ""
+
+#: modules/editor/views/editor-icon.php:37
+msgid "apply"
+msgstr ""
+
+#: modules/editor/views/editor-image.php:2
+msgid "width: "
+msgstr ""
+
+#: modules/editor/views/editor-image.php:3
+msgid "height: "
+msgstr ""
+
+#: modules/editor/views/editor-image.php:4
+msgid "alignment: "
+msgstr ""
+
+#: modules/editor/views/editor-image.php:9
+msgid "center"
+msgstr ""
+
+#: modules/editor/views/editor-image.php:12
+msgid "natural size: "
+msgstr ""
+
+#: modules/editor/views/editor-link.php:8
+msgid "open in new tab/window"
+msgstr ""
+
+#: modules/editor/views/editor-link.php:12
+msgid "class attribute"
+msgstr ""
+
+#: modules/editor/views/editor-link.php:14
+msgid "space separated list as in normal HTML"
+msgstr ""
+
+#: modules/editor/views/editor-link.php:18
+msgid "id attribute"
+msgstr ""
+
+#: modules/editor/views/editor-link.php:20
+msgid "unique identifier"
+msgstr ""
+
+#: modules/editor/views/editor-link.php:32
+msgid "Link to existing content"
+msgstr ""
+
+#: modules/editor/views/editor-link.php:39
+msgid "Type"
+msgstr ""
+
+#: modules/editor/views/editor-link.php:44
+msgid "No content available"
+msgstr ""
+
+#: modules/fonts/class-fonts.php:45
+msgid "No Google Font found"
+msgstr ""
+
+#: modules/fonts/class-fonts.php:46
+msgid "Font Family"
+msgstr ""
+
+#: modules/fonts/class-fonts.php:47
+msgid "no more font"
+msgstr ""
+
+#: modules/fonts/class-fonts.php:62
+msgid "Google Fonts"
+msgstr ""
+
+#: modules/fonts/views/settings.php:10
+msgid "Available Google Fonts"
+msgstr ""
+
+#: modules/fonts/views/settings.php:14
+msgid "Font Family Name"
+msgstr ""
+
+#: modules/fonts/views/settings.php:15
+msgid "Include in admin"
+msgstr ""
+
+#: modules/fonts/views/settings.php:16
+msgid "Include in front end"
+msgstr ""
+
+#: modules/fonts/views/settings.php:20
+msgid "no saved font yet"
+msgstr ""
+
+#: modules/fonts/views/settings.php:30
+msgid "delete"
+msgstr ""
+
+#: modules/fonts/views/settings.php:53
+msgid ""
+"Do not include too much Google Fonts on the front end. They impact the page "
+"load time."
+msgstr ""
+
+#: modules/fonts/views/settings.php:54
+msgid ""
+"Some Google Fonts might already be included by your theme in the front end. "
+"In this case, you just need to include them in admin pages."
+msgstr ""
+
+#: modules/fonts/views/settings.php:57
+msgid "Save Settings"
+msgstr ""
+
+#: modules/fonts/views/settings.php:64
+msgid "Add New Google Font"
+msgstr ""
+
+#: modules/fonts/views/settings.php:66
+msgid "Font code"
+msgstr ""
+
+#: modules/fonts/views/settings.php:68
+msgid "Paste the code from "
+msgstr ""
+
+#: modules/fonts/views/settings.php:68
+msgid " in this field"
+msgstr ""
+
+#: modules/fonts/views/settings.php:70
+msgid "parse code"
+msgstr ""
+
+#: modules/fonts/views/settings.php:75
+msgid "Font Name (administration)"
+msgstr ""
+
+#: modules/fonts/views/settings.php:79
+msgid ""
+"The name for administration. Not necessarily the font family name from "
+"Google."
+msgstr ""
+
+#: modules/fonts/views/settings.php:82
+msgid "Add New Font"
+msgstr ""
+
+#: modules/internal/includes/class-internal.php:16
+msgid ""
+"Your server configuration does not allow the saving of this slider. There is "
+"too much variables. "
+msgstr ""
+
+#: modules/internal/includes/class-internal.php:17
+msgid ""
+"You will need to increase the value of the <code>max_input_vars</code> "
+"directive in your <code>php.ini</code> file "
+msgstr ""
+
+#: modules/internal/includes/class-internal.php:18
+msgid "(current value: "
+msgstr ""
+
+#: modules/internal/includes/class-internal.php:20
+msgid "Please ask your web hosting provider on how to proceed. "
+msgstr ""
+
+#: modules/internal/includes/class-internal.php:21
+msgid ""
+"Alternatively you can reduce the amount of elements (layers, captions or "
+"slides) before saving. "
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:12
+msgid "use arrows"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:16
+msgid "orientation"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:18
+msgid "horizontal"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:19
+msgid "vertical"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:21
+msgid "should be the same as the slider play orientation"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:24
+msgid "spacing"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:26
+msgid "spaced"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:27
+msgid "grouped"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:29
+msgid "grouped or symmetrically spaced arrows"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:32
+msgid "hide on mouse out"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:39
+msgid "show arrows only on mouse over"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:42
+msgid "icon size"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:49
+msgid "Arrows position"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:77
+msgid "previous slide icon"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:77
+msgid "next slide icon"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:85
+#: modules/nav-arrows/includes/admin-params.php:96
+msgid "select an icon"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:110
+msgid "icon color"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:112
+#: modules/nav-arrows/includes/admin-params.php:134
+#: modules/nav-bullet/includes/admin-params.php:17
+#: modules/nav-progress/includes/admin-params.php:17
+msgid "Select Color"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:113
+msgid "icons color"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:119
+msgid "arrow background"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:121
+msgid ""
+"add a background to arrows. useful on slider with both light and dark slides"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:127
+msgid "round background"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:129
+msgid "use circular background. mostly suitable on circled icons"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:135
+msgid "arrow icon background color"
+msgstr ""
+
+#: modules/nav-arrows/includes/admin-params.php:142
+msgid "arrow icon background opacity"
+msgstr ""
+
+#: modules/nav-arrows/includes/class-nav-arrows.php:17
+msgid "Navigation arrows"
+msgstr ""
+
+#: modules/nav-arrows/includes/class-nav-arrows.php:74
+msgid "Show on mouse over"
+msgstr ""
+
+#: modules/nav-arrows/includes/class-nav-arrows.php:75
+msgid "always shown"
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:10
+msgid "use bullets navigator"
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:14
+msgid "bullet color"
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:18
+msgid ""
+"by default bullets have the same color as the font used in the place where "
+"the slider is used. You can choose your own color here."
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:21
+msgid "bullet size"
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:24
+msgid "bullet size in pixels"
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:27
+msgid "bullets position"
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:30
+msgid "inside"
+msgstr ""
+
+#: modules/nav-bullet/includes/admin-params.php:31
+msgid "outside"
+msgstr ""
+
+#: modules/nav-bullet/includes/class-nav-bullet.php:11
+msgid "Bullets navigator"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:10
+msgid "use progress bar"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:14
+msgid "progress bar color"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:19
+#: modules/nav-progress/includes/admin-params.php:23
+msgid "progress bar opacity"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:26
+msgid "progress bar thickness"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:29
+msgid "progress bar thickness in pixels"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:32
+msgid "progress bar position"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:36
+#: modules/nav-thumb/includes/admin-params.php:42
+msgid "top"
+msgstr ""
+
+#: modules/nav-progress/includes/admin-params.php:38
+#: modules/nav-thumb/includes/admin-params.php:41
+msgid "bottom"
+msgstr ""
+
+#: modules/nav-progress/includes/class-nav-progress.php:11
+msgid "Progress bar"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:10
+msgid "use thumbnail navigator"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:14
+msgid "Thumbnail width"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:17
+msgid "thumbnail width in pixels"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:20
+msgid "Thumbnail height"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:23
+msgid "thumbnail height in pixels"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:26
+msgid "Lane"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:29
+msgid "in how many lanes the thumbnails should be arranged"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:32
+msgid "Pieces to display"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:35
+msgid "how many pieces ( per lane ) are displayed"
+msgstr ""
+
+#: modules/nav-thumb/includes/admin-params.php:38
+msgid "Thumbnails position"
+msgstr ""
+
+#: modules/nav-thumb/includes/class-nav-thumb.php:11
+msgid "Thumbnail navigator"
+msgstr ""
+
+#: modules/slide-html/includes/class-layer-html.php:25
+msgid "Layer styling and positioning"
+msgstr ""
+
+#: modules/slide-html/includes/class-slide-html.php:11
+#: modules/slide-html/views/admin-params.php:12
+msgid "HTML"
+msgstr ""
+
+#: modules/slide-html/includes/class-slide-html.php:12
+#: modules/slide-html/slide-html.php:16
+msgid "Use custom HTML content as slide"
+msgstr ""
+
+#: modules/slide-html/includes/class-slide-html.php:23
+#: modules/slide-html/views/admin-params.php:16
+msgid "static content"
+msgstr ""
+
+#: modules/slide-html/slide-html.php:15
+msgid "HTML Slides"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:29
+#: modules/slide-image/admin-params.php:28
+#: modules/slide-vimeo/views/admin-params.php:28
+#: modules/slide-youtube/views/admin-params.php:28
+msgid "Slide name"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:31
+#: modules/slide-image/admin-params.php:30
+#: modules/slide-vimeo/views/admin-params.php:30
+#: modules/slide-youtube/views/admin-params.php:30
+msgid "The slide name is for administration only"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:34
+msgid "Layers"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:41
+msgid "background image"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:44
+msgid "remove image"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:51
+msgid "color"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:52
+msgid "opacity"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:69
+#: modules/slide-image/admin-params.php:50
+msgid "Slide transition"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:71
+#: modules/slide-image/admin-params.php:52
+msgid "Transition effect"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:81
+#: modules/slide-image/admin-params.php:62
+msgid ""
+"If set, this effect is used instead of the  one defined as basic parameter"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:82
+#: modules/slide-image/admin-params.php:63
+msgid "Transition speed"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:84
+#: modules/slide-image/admin-params.php:65
+msgid "Duration ( in ms ) of the transition effect"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:93
+msgid "Static content"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:97
+msgid "Set as static content"
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:100
+msgid ""
+"If set as static, it will not be a slide any more. The content will not move "
+"and remains in its place, no matter which slide is being displayed. "
+msgstr ""
+
+#: modules/slide-html/views/admin-params.php:101
+msgid ""
+"Every transitions and captions will be ignored, and also the background "
+"image as it covers all the surface."
+msgstr ""
+
+#: modules/slide-html/views/layer-styling-view.php:37
+msgid "Layer name: "
+msgstr ""
+
+#: modules/slide-html/views/layer-styling-view.php:100
+msgid "(does not work in IE 8)"
+msgstr ""
+
+#: modules/slide-html/views/layers-params.php:7
+msgid "add layer"
+msgstr ""
+
+#: modules/slide-html/views/layers-params.php:9
+msgid "paste the copied layer"
+msgstr ""
+
+#: modules/slide-html/views/single-layer-params.php:20
+msgid "Layer name"
+msgstr ""
+
+#: modules/slide-html/views/single-layer-params.php:22
+msgid "The layer name is for administration only."
+msgstr ""
+
+#: modules/slide-html/views/single-layer-params.php:28
+msgid "Duplicate layer"
+msgstr ""
+
+#: modules/slide-image/admin-params.php:12
+#: modules/slide-image/admin-params.php:33
+#: modules/slide-image/class-slide-image.php:10
+msgid "Image"
+msgstr ""
+
+#: modules/slide-image/admin-params.php:35
+msgid "select image"
+msgstr ""
+
+#: modules/slide-image/admin-params.php:37
+msgid "select an image from your library"
+msgstr ""
+
+#: modules/slide-image/admin-params.php:40
+msgid "Link"
+msgstr ""
+
+#: modules/slide-image/admin-params.php:43
+msgid "where to go when clicking this image (can be empty)"
+msgstr ""
+
+#: modules/slide-image/admin-params.php:45
+msgid "Alt tag"
+msgstr ""
+
+#: modules/slide-image/class-slide-image.php:11
+msgid "Use image as slide"
+msgstr ""
+
+#: modules/slide-image/slide-image.php:20
+msgid "Select one image"
+msgstr ""
+
+#: modules/slide-image/slide-image.php:21
+msgid "use this image"
+msgstr ""
+
+#: modules/slide-image/slide-image.php:22
+msgid "invalid file extension"
+msgstr ""
+
+#: modules/slide-vimeo/includes/class-slide-vimeo.php:11
+#: modules/slide-vimeo/views/admin-params.php:10
+msgid "Vimeo"
+msgstr ""
+
+#: modules/slide-vimeo/includes/class-slide-vimeo.php:12
+#: modules/slide-vimeo/slide-vimeo.php:16
+msgid "Use Vimeo video as slide"
+msgstr ""
+
+#: modules/slide-vimeo/includes/class-slide-vimeo.php:30
+#: modules/slide-youtube/includes/class-slide-youtube.php:29
+msgid "video ID not found"
+msgstr ""
+
+#: modules/slide-vimeo/slide-vimeo.php:15
+msgid "Vimeo slides"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:33
+#: modules/slide-youtube/views/admin-params.php:33
+msgid "Video ID"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:36
+#: modules/slide-youtube/views/admin-params.php:36
+msgid "get id from url"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:39
+#: modules/slide-youtube/views/admin-params.php:39
+msgid "paste the video url in the field bellow:"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:41
+#: modules/slide-youtube/views/admin-params.php:41
+msgid "parse"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:45
+msgid "Byline"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:47
+msgid "Show the user's byline on the video"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:48
+#: modules/slide-vimeo/views/admin-params.php:54
+#: modules/slide-vimeo/views/admin-params.php:60
+#: modules/slide-youtube/views/admin-params.php:48
+#: modules/slide-youtube/views/admin-params.php:60
+#: modules/slide-youtube/views/admin-params.php:66
+msgid "show"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:49
+#: modules/slide-vimeo/views/admin-params.php:55
+#: modules/slide-vimeo/views/admin-params.php:61
+#: modules/slide-youtube/views/admin-params.php:49
+#: modules/slide-youtube/views/admin-params.php:61
+#: modules/slide-youtube/views/admin-params.php:67
+msgid "do not show"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:51
+msgid "Portrait"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:53
+msgid "Show the user's portrait on the video"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:59
+msgid "Show the title on the video"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:63
+msgid "Color"
+msgstr ""
+
+#: modules/slide-vimeo/views/admin-params.php:66
+msgid "Video controls color"
+msgstr ""
+
+#: modules/slide-youtube/includes/class-slide-youtube.php:11
+#: modules/slide-youtube/views/admin-params.php:10
+msgid "YouTube"
+msgstr ""
+
+#: modules/slide-youtube/includes/class-slide-youtube.php:12
+#: modules/slide-youtube/slide-youtube.php:16
+msgid "Use YouTube video as slide"
+msgstr ""
+
+#: modules/slide-youtube/slide-youtube.php:15
+msgid "YouTube slides"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:45
+msgid "Related videos"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:47
+msgid "Show related video after playback"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:51
+msgid "Full screen"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:53
+msgid "Allow full screen"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:54
+msgid "allow"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:55
+msgid "forbid"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:57
+msgid "Video info"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:59
+msgid "Show info on the video"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:63
+msgid "YouTube Logo"
+msgstr ""
+
+#: modules/slide-youtube/views/admin-params.php:65
+msgid "Display the YouTube logo on the player (before the video starts)"
+msgstr ""
+
+#: modules/template-advanced/includes/class-template-advanced.php:51
+msgid "Advanced template"
+msgstr ""
+
+#: modules/template-advanced/includes/class-template-advanced.php:52
+msgid ""
+"Template with advanced slide effects and captions. Usable with HTML and "
+"image slides"
+msgstr ""
+
+#: modules/template-advanced/includes/class-template-advanced.php:67
+#: modules/template-classic/includes/class-template-classic.php:65
+#: modules/template-image/includes/class-template-image.php:61
+msgid "Single slide preview"
+msgstr ""
+
+#: modules/template-advanced/template-advanced.php:15
+msgid "Advanced slider template"
+msgstr ""
+
+#: modules/template-advanced/template-advanced.php:16
+msgid ""
+"Use advanced slide transitions and animated captions on HTML and image slide"
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:3
+#: modules/template-classic/views/advanced-params.php:7
+#: modules/template-image/views/advanced-params.php:2
+msgid "Fill Mode"
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:14
+#: modules/template-classic/views/advanced-params.php:18
+#: modules/template-image/views/advanced-params.php:13
+msgid ""
+"The way images will fill slide. This applies to image slides but also to "
+"background image of HTML slides."
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:23
+#: modules/template-classic/views/advanced-params.php:27
+#: modules/template-image/views/advanced-params.php:22
+msgid "Auto play"
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:25
+#: modules/template-classic/views/advanced-params.php:29
+#: modules/template-image/views/advanced-params.php:24
+msgid "If unchecked, transition happens only following a manual action"
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:29
+#: modules/template-classic/views/advanced-params.php:33
+#: modules/template-image/views/advanced-params.php:28
+msgid "Pause on hover"
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:40
+#: modules/template-classic/views/advanced-params.php:44
+#: modules/template-image/views/advanced-params.php:39
+msgid "Pause slider on mouse over if auto play is enabled"
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:47
+#: modules/template-classic/views/advanced-params.php:51
+#: modules/template-image/views/advanced-params.php:46
+msgid "Play orientation"
+msgstr ""
+
+#: modules/template-advanced/views/advanced-params.php:56
+#: modules/template-classic/views/advanced-params.php:60
+#: modules/template-image/views/advanced-params.php:55
+msgid "Slider playing orientation"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:4
+#: modules/template-classic/views/basic-params.php:2
+#: modules/template-image/views/basic-params.php:5
+msgid "Slider aspect ratio"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:7
+#: modules/template-classic/views/basic-params.php:5
+#: modules/template-image/views/basic-params.php:8
+msgid "Width (in px)"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:10
+#: modules/template-classic/views/basic-params.php:8
+#: modules/template-image/views/basic-params.php:11
+msgid "slide width"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:14
+#: modules/template-classic/views/basic-params.php:12
+#: modules/template-image/views/basic-params.php:15
+msgid "Height (in px)"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:17
+#: modules/template-classic/views/basic-params.php:15
+#: modules/template-image/views/basic-params.php:18
+msgid "slide height"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:26
+#: modules/template-image/views/basic-params.php:27
+msgid "Default transition effect"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:37
+#: modules/template-image/views/basic-params.php:38
+msgid ""
+"visual effect for slide transition. Overridden by the slide's individual "
+"value (if it is set)."
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:40
+#: modules/template-image/views/basic-params.php:41
+msgid "Default transition duration (in ms)"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:42
+#: modules/template-image/views/basic-params.php:43
+msgid ""
+"duration of the slide transition. Overridden by the slide's individual value "
+"(if it is set)."
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:45
+#: modules/template-classic/views/basic-params.php:25
+#: modules/template-image/views/basic-params.php:46
+msgid "Slide display time (in ms)"
+msgstr ""
+
+#: modules/template-advanced/views/basic-params.php:47
+#: modules/template-classic/views/basic-params.php:27
+#: modules/template-image/views/basic-params.php:48
+msgid ""
+"time before switching to the next slide automatically ( if auto play is "
+"enabled )"
+msgstr ""
+
+#: modules/template-classic/includes/class-template-classic.php:49
+msgid "Classic slider template"
+msgstr ""
+
+#: modules/template-classic/includes/class-template-classic.php:50
+msgid ""
+"The classic slider. No captions nor advanced slide effects. Usable with all "
+"types of slide."
+msgstr ""
+
+#: modules/template-classic/views/advanced-params.php:2
+msgid "Amount of slides to display"
+msgstr ""
+
+#: modules/template-classic/views/advanced-params.php:4
+msgid ""
+"How many slides should be visible at the same time. ( large number means it "
+"is a carousel )"
+msgstr ""
+
+#: modules/template-classic/views/basic-params.php:30
+msgid "Transition speed (in ms)"
+msgstr ""
+
+#: modules/template-classic/views/basic-params.php:32
+msgid "auto play transition duration"
+msgstr ""
+
+#: modules/template-classic/views/slide-params.php:17
+msgid "This slider makes use of missing modules. ( slide type: "
+msgstr ""
+
+#: modules/template-classic/views/slide-params.php:18
+msgid " ). You might lose data if you keep working on it."
+msgstr ""
+
+#: modules/template-image/includes/class-template-image.php:45
+msgid "Image slider template"
+msgstr ""
+
+#: modules/template-image/includes/class-template-image.php:46
+msgid ""
+"Template with advanced slide effects and captions. Usable with image slides "
+"only. Has a thumbnail feature ( uses GD library )"
+msgstr ""

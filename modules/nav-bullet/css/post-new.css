@@ -1,0 +1,20 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+.jssor-bullet-nav-wrap .jssor-bullet-nav {
+    font-family: FontAwesome;
+    cursor: pointer;
+}
+
+.jssor-bullet-nav-wrap .jssor-bullet-nav:before {
+    content: "\f10c";
+}
+
+.jssor-bullet-nav-wrap .jssor-bullet-nav:hover:before,
+.jssor-bullet-nav-wrap .jssor-bullet-navav:before {
+    content: "\f111";
+}

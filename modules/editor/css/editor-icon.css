@@ -1,0 +1,125 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+#icons-all,
+#icon-preview,
+#insert-icon-div {
+    position: absolute;
+    margin: 0;
+}
+
+#icons-all #main-wrap {
+    position: absolute;
+    width: 100%;
+}
+
+#icons-all #main-wrap #icon-filter {
+    padding: 6px 12px;
+}
+
+#icon-preview {
+    position: absolute;
+    width: 260px;
+    border-left: 1px solid #d6d6d6;
+}
+
+@media(min-width: 811px) {
+    #icon-preview {
+        width: 320px;
+    }
+}
+
+#insert-icon-div {
+    width: 100%;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #d6d6d6;
+    text-align: right;
+}
+
+#insert-icon-div button {
+    margin-top: 10px;
+    margin-right: 25px
+}
+
+#icons-all #icons-list {
+    overflow-y: scroll;
+    padding: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#icons-all #icon-filter {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #d6d6d6
+}
+
+#icons-all #icons-list .icon-block {
+    float: left;
+    width: 165px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+#icons-all #icons-list .icon-block .fa {
+    font-size: 3em;
+}
+
+#icons-all #icons-list .icon-block .icon-name {
+    display: block;
+    margin: 0;
+    padding: 4px;
+    color: #666;
+}
+
+#no-icon-found,
+#no-icon-selected {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+#no-icon-selected {
+    margin: 0;
+}
+
+#icon-com {
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#icon-com button.pressed {
+    background: #eee;
+    border-color: #999;
+    color: #32373c;
+    -webkit-box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+}
+
+#preview-wrap {
+    height: 180px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+#icon-zone {
+    font-size: 32px;
+    height: 178px;
+    text-align: center;
+    margin: 0;
+    padding-top: 0.2em;
+}
+
+#icon-zone .fa {
+    font-size: 64px;
+    line-height: 178px;
+    vertical-align: middle;
+}

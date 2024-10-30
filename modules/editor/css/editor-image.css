@@ -1,0 +1,47 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+#editor-image-wrap #image-edit-toolbar {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+#editor-image-wrap #image-edit-toolbar label {
+    font-weight: bold;
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+#editor-image-wrap #image-edit-toolbar label input ,
+#editor-image-wrap #image-edit-toolbar label select {
+    font-weight: normal;
+}
+
+#editor-image-wrap #image-edit-toolbar label input[type="number"]  {
+    width: 6em;
+}
+
+#editor-image-wrap #image-edit-toolbar #natural-size {
+    margin: 6px 12px;
+    display: block;
+}
+
+#editor-image-wrap #image-edit-submit {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 50px;
+    border-top: 1px solid #d6d6d6;
+    text-align: right;
+}
+
+#editor-image-wrap #image-edit-submit button,
+#editor-image-wrap #image-edit-submit input[type="submit"] {
+    margin-top: 12px;
+    margin-right: 10px;
+}

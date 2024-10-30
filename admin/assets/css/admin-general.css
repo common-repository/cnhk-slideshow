@@ -1,0 +1,319 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+.cnhk-error {
+	background-color : rgba( 220, 160, 120, 0.25 );
+	color: #d32;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.cnhk-success {
+	background-color : rgba( 120, 220, 160, 0.15 );
+	color: #2a3;
+	padding: 0.6em 0.3em;
+}
+
+.form-field {
+	margin: 0 0 8px;
+	padding: 6px 0;
+}
+
+.form-field label{
+	display: block;
+	padding: 2px;
+	font-size: 12px;
+}
+
+.form-field p {
+	line-height: 1.5;
+}
+ 
+.form-field .desc {
+	font-size: 13px;
+	font-style: italic;
+	margin: 2px 0 5px;
+	color: #777;
+}
+
+.form-wrap fieldset {
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin-bottom: 15px;
+}
+
+.form-wrap fieldset legend {
+	font-weight: bold;
+}
+
+#cnhkss-settings .module-desc {
+    margin-left: 2em;
+    font-style: italic;
+}
+
+/* Fx Builder */
+
+.top-command {
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+}
+
+#the-code {
+    background-color: rgb(255, 255, 255);
+    font-family: monaco, serif;
+}
+
+input[id^="stDuring"],
+input[id^="stScale"] {
+    width: 4em;
+}
+
+#fx-builder label {
+    color: #111;
+}
+
+p.fx-desc {
+    font-style: italic;
+    color: rgb(100, 100, 100);
+    font-size: 0.9em;
+    margin-bottom: 15px ! important;
+}
+
+.modified-field {
+    background-color: rgba(60, 255, 58, 0.2) ! important;
+}
+
+.nouse-field,
+.nouse-field.modified-field {
+    background-color: rgba(255, 174, 0, 0.3) ! important;
+}
+
+.invalid-field,
+.invalid-field.modified-field {
+    background-color: rgba(255, 3, 3, 0.3) ! important;
+}
+
+input:disabled,
+select:disabled {
+    background-color: rgb(240, 240, 240) ! important;
+}
+
+.field-tip {
+    margin-left: 2em;
+}
+
+.caution {
+    color: #d00;
+    cursor: help;
+    display: inline;
+}
+
+.caution-content {
+    position: absolute;
+    color: #111;
+    font-style: normal;
+    background-color: #fbfbb3;
+    border: 1px solid #c0c0c0;
+    padding: 4px;
+    z-index: 10;
+    display: none;
+}
+
+.caution:hover .caution-content {
+    display: block;
+}
+
+.cnhk-notice-dismiss {
+    float: right;
+    border: none;
+    padding-top: 1px;
+    margin: 0;
+    margin-top: 9px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    width: 15px;
+    height: 14px;
+    font-size: 13px;
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -ms-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+    background-color: #cfcfcf;
+}
+
+.cnhk-notice-dismiss:hover {
+    background-color: #c00;
+}
+
+#save-fx-selection li {
+    border: 1px solid #dfdfdf;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0;
+    padding: 5px;
+    margin-bottom: 0;
+    cursor: pointer;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    transition: color 0.25s;
+    color: #555;
+}
+
+#save-fx-selection li:hover {
+    color: #111;
+}
+
+.builder-caption {
+    position: absolute;
+    font-size: 13px;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0;
+    display: block;
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -ms-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+.builder-caption:hover {
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.builder-caption div {
+    text-align: center;
+    padding: 6px;
+}
+
+/* post.php - post-new.php */
+
+.cnhk-number {
+    width: 6em !important;
+}
+
+/* fx-picker */
+.fx-picker-wrap {
+    height: 270px;
+    background-color: #fbfbfb;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+}
+
+.fx-picker-container .current-name {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-style: italic;
+    background-color: #dde;
+}
+
+.fx-picker-wrap .picker-head {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.fx-picker-wrap .picker-body {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.fx-picker-wrap .dashicons-no,
+.fx-saver-container .dashicons-no {
+    cursor: pointer;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    transition: color 0.25s;
+    color: #999;
+}
+
+.fx-picker-wrap .dashicons-no:hover,
+.fx-saver-container  .dashicons-no:hover {
+    color: #222;
+}
+
+.fx-picker-wrap .fx-elem {
+    width: 90%;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.fx-picker-wrap .delete-collection {
+    cursor: pointer;
+    color: #a00;
+    display: inline-block;
+    float: right;
+    height: 25px;
+}
+
+.fx-picker-wrap .delete-collection:hover {
+    color: red;
+}
+
+.fx-picker-wrap .fx-elem span {
+    cursor: pointer;
+}
+
+.fx-picker-wrap .fx-elem .action-row {
+    visibility: hidden;
+    text-align: right;
+}
+
+.fx-picker-wrap .fx-elem .action-row .delete-fx {
+    cursor: pointer;
+    color: red;
+}
+
+.fx-picker-wrap .fx-elem:hover .action-row .delete-fx {
+    visibility: visible;
+}
+
+.fx-saver-container {
+    background-color: #fbfbfb;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+}
+
+.fx-saver-container .saver-notice{
+    color: red;
+}
+#brother-builder table td {
+    background-color: #fbfbfb;
+}
+
+#brother-builder table th {
+    background-color: #dfdfdf;
+}
+
+#submit-brother{
+    position: absolute;
+    height: 49px;
+    border-top: 1px solid #d6d6d6;
+    background-color: #f0f0f0;
+    text-align: right;
+    width: 100%;
+}
+
+#submit-brother button {
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+span.fa {
+    display: inline !important;
+}

@@ -1,0 +1,39 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+#nav-arrows-grid {
+    margin: 1%;
+    padding: 1%;
+    border: 1px dashed #444;
+    width: 98%;
+}
+
+.arrow-grid {
+    border: 1px solid #c8c8c8;
+    height: 6em;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.arrow-grid.neutral,
+.arrow-grid.disabled {
+    cursor: default;
+    background-color: #b2b2b2;
+}
+
+.arrow-grid.active {
+    cursor: default;
+    background-color: #a1a1f9;
+}
+
+.navarrow {
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 0.4;
+    cursor: pointer;
+}

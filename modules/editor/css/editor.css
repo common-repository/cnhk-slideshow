@@ -1,0 +1,142 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+iframe.cnhk-editor-visual {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+textarea.cnhk-editor-html {
+    width: 100%;
+    resize: none;
+    height: 300px;
+}
+
+.cnhk-editor-toolbar {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    background-color: #fbfbfb;
+    padding: 4px;
+}
+
+.cnhk-editor-toolbar .dashicons{
+    color: #4c4c4c;
+    margin-left: 1px;
+}
+
+.cnhk-editor-toolbar .editor-btn {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid;
+    border-radius: 3px;
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    -webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+    box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+    cursor: pointer;
+}
+
+.cnhk-editor-toolbar .editor-btn:active,
+.cnhk-editor-toolbar .editor-btn.pressed {
+    background: #e0e0e0;
+    border-color: #999;
+    color: #32373c;
+    -webkit-box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+    box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+}
+
+.cnhk-editor-toolbar .editor-btn.disabled,
+.cnhk-editor-toolbar .editor-btn.disabled:active {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    cursor: default;
+}
+
+.cnhk-editor-toolbar .editor-btn.disabled .dashicons,
+.cnhk-editor-toolbar .editor-btn.disabled:active .dashicons {
+    color: #bbb;
+}
+
+.cnhk-editor-toolbar .editor-btn .btn-tip {
+    position: absolute;
+    background-color: #222;
+    border: none;
+    color: #ccc;
+    border-radius: 3px;
+    padding: 4px;
+    display: none; 
+    position: absolute;
+    display: none;
+    text-align: center;
+}
+
+.cnhk-editor-toolbar .editor-btn:hover .btn-tip {
+    display: block;
+    margin-top: -50px;
+    margin-left: -9px;
+    min-width: 32px;
+}
+
+.cnhk-editor-toolbar .editor-btn:hover .btn-tip:after {
+    content: "";
+    display: block;
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #222;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.cnhk-editor-toolbar .editor-btn:hover .btn-tip:hover {
+    display: none;
+}
+
+.editor-btn .text-color,
+.editor-btn .background-color {
+    position: absolute;
+    margin-top: 6px;
+    padding: 4px;
+    background-color: #f5f5f5;
+    border: solid 1px #dedede;
+    display: none;
+}
+
+.editor-btn.pressed .text-color,
+.editor-btn.pressed .background-color {
+    display: block;
+}
+
+
+.editor-btn.pressed .text-color .wp-picker-open+.wp-picker-input-wrap,
+.editor-btn.pressed .background-color .wp-picker-open+.wp-picker-input-wrap {
+    display: inline;
+}
+
+.after-editor-submit {
+    width: 100%;
+    text-align: right;
+}
+
+.after-editor-submit-inner {
+    background-color: #f0f0f0;
+    border: 1px solid #d6d6d6;
+    border-top: none;
+    height: 50px;
+}
+
+.after-editor-submit-inner button {
+    margin-top: 12px !important;
+    margin-right: 15px !important;
+}
